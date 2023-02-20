@@ -15,4 +15,3 @@ for var in selection:
 
 # let's calculate the standard deviation of this random variable
 var = np.std(xs)
-print(var)

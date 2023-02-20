@@ -1,8 +1,7 @@
 import numpy as np
 import scipy.stats as scs
 
-
-def fun(x, y):
+def fun(x: float, y: str) -> None:
     print("median of the", y, "distribution :", np.median(x))
     print("average value of the", y, "distribution :", np.std(x))
     print("interquartile range of the", y, "distribution :",
